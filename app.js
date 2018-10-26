@@ -14,17 +14,17 @@ function rollTheDice() {
     let randomNumber = Math.floor(Math.random() * (numbersOnDice.length + 1));
     console.log(randomNumber);
     if (randomNumber == 1) {
-        dice.style.backgroundImage = "url(Dice1.png)";
+        dice.style.backgroundImage = "url(images/Dice1.png)";
     } else if (randomNumber == 2) {
-        dice.style.backgroundImage = "url(Dice2.png)";
+        dice.style.backgroundImage = "url(images/Dice2.png)";
     } else if (randomNumber == 3) {
-        dice.style.backgroundImage = "url(Dice3.png)";
+        dice.style.backgroundImage = "url(images/Dice3.png)";
     } else if (randomNumber == 4) {
-        dice.style.backgroundImage = "url(Dice4.png)"
+        dice.style.backgroundImage = "url(images/Dice4.png)"
     } else if (randomNumber == 5) {
-        dice.style.backgroundImage = "url(Dice5.png)"
+        dice.style.backgroundImage = "url(images/Dice5.png)"
     } else if (randomNumber == 6) {
-        dice.style.backgroundImage = "url(Dice6.png)"
+        dice.style.backgroundImage = "url(images/Dice6.png)"
     } else if(randomNumber == 0){
         rollTheDice();
     }

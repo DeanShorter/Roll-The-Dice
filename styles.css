@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.container {
+    background: white;
+    border: 5px solid white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.number-container {
+    text-align: center;
+}
+
+.number-container p {
+    text-transform: uppercase;
+}
+
+.dice {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(Dice1.png);
+    background-size: contain;
+    border-radius: 5px;
+    border-radius: 5px;
+}
+
+.number {
+    color: white;
+    font-size: 3rem;
+}
+
+.rollBtn {
+    width: 100px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
+
+.rollBtn:hover {
+    cursor: pointer;
+    background-color: firebrick;
+}
+
+.dice-image {
+    height: 100px;
+    width: 100px;
+
+}
+
+#number-display {
+    font-size: 20px;
+    font-weight: 900;
+    color: red;
+}
+
+

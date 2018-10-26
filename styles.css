@@ -44,19 +44,21 @@ body {
     font-size: 3rem;
 }
 
-.rollBtn {
+.button {
     width: 100px;
-    border: none;
+    border: 3px solid red;
     outline: none;
     height: 40px;
-    background-color: red;
-    color: white;
+    background-color: white;
+    color: red;;
     font-weight: 600;
+    margin-bottom: 10px;
 }
 
-.rollBtn:hover {
+.button:hover {
     cursor: pointer;
-    background-color: firebrick;
+    background-color: #ccc;
+    color: white;
 }
 
 .dice-image {
@@ -71,4 +73,7 @@ body {
     color: red;
 }
 
+.number-container p {
+    margin: 10px;
+}
 
